@@ -1,6 +1,6 @@
 import React , {useState} from 'react'
 import { isEmpty,size } from 'lodash'
-import shortid, { isValid } from 'shortid'
+import shortid  from 'shortid'
 
 function App() {
   const [task, setTask] = useState("")
@@ -15,7 +15,7 @@ function App() {
 
     if(isEmpty(task)){
       setError("Debes ingresar una tarea")
-      isValid(false)
+      isValid = false
     }
     return isValid
   } 
