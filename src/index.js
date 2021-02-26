@@ -8,3 +8,9 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 )
+
+// link para mirar en firebase 
+// https://crud-df074.web.app/ 
+
+// link para mirar en netfily 
+// https://compassionate-poitras-d8cb37.netlify.app/
